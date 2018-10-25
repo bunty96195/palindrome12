@@ -12,7 +12,7 @@ int main()
     while( n!=0 )
     {
         remainder = n%10;
-       
+        reversedInteger = reversedInteger*10 + remainder;
         n /= 10;
     }
 
